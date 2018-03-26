@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v1/vdpMRWfyjfCvDYTz00NEPGaVI6zN22yiurzcBKxPjFE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  }
+img {
+    height: 100px;
+    border-radius: 50%;
+    display: block; 
+    margin: auto;
+    width: 100px;
+    margin-top: 50px;
+}
+h2 {
+    width: 200px;
+    height: 20px;
+    overflow: visible;
+    text-align: center;
+    align-self: center;
+}
+p{
+    overflow: scroll;
+    height: 200px;
+    padding: 0px 20px 20px 20px;
+}
+main {
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: 200px 100px 300px;
+        justify-items: center;
+        justify-content: center;
+        align-items: stretch;
+        align-content: center;
+        grid-auto-flow: column;
+        width: 300px;
+        border: black solid;
+        border-radius: 10%;
+      }
+.description {
+  font-family: 'Space mono';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.29;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: lightblue;
+  padding: 10px 0px 10px 10px;
+  border-bottom: 1px solid #4a4a4a;
+}
+.textarea {
+    padding: 10px 10px 10px 10px;
+}
+.imgb {
+    background-color: lightblue;
+    height: 200px;
+}
